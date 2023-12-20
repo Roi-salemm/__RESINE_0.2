@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hi!{% endblock %}
+
+
+
+
+{% block stylesheets %}
+    {# {{ encore_entry_link_tags('css') }}
+    {{ encore_entry_link_tags('nav') }} #}
+{# 
+    {{ encore_entry_link_tags('lateral_slide') }} 
+    {{ encore_entry_link_tags('slider') }}  #}
+{% endblock %}
+
+
+    {% block body %}
+
+
+    {% include "main/vertical_1_slide.html.twig" %}
+
+    {# {% include "main/slider_UnderMenu.html.twig" %} #}
+
+
+    {% endblock %}
+
+
+
+{% block javascripts %}
+
+    {# // <script src="{{ 'assets/js/main/lateral_slide.js' }}" defer></script> #}
+
+    {# <script src='assets/js/main/slider.js' " defer></script> #}
+
+
+
+
+    
+
+    {# // <script src='assets/js/main/vertical_1_slide.js'defer></script> #}
+
+{% endblock %}
+
+
+{# {% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %} #}
+
+
+
+
